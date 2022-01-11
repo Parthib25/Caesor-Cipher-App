@@ -22,8 +22,9 @@ ensubmit.onclick = function enresultfun() {
     result[j] = String.fromCharCode(enstr.charCodeAt(j) + cal);
 
     copyen.onclick = function copy() {
-      navigator.clipboard.writeText(result.join(""));
-      alert("Text copied:)");
+      navigator.clipboard.writeText(result.join("")).then(() => {
+        alert("successfully copied");
+      });
     };
   }
   enresult.innerHTML = `Result:${result.join("")}`;
@@ -38,8 +39,9 @@ desubmit.onclick = function deresultfun() {
     result[j] = String.fromCharCode(destr.charCodeAt(j) - cal);
 
     copyde.onclick = function copy() {
-      navigator.clipboard.writeText(result.join(""));
-      alert("Text copied:)");
+      navigator.clipboard.writeText(result.join("")).then(() => {
+        alert("successfully copied");
+      });
     };
   }
   deresult.innerHTML = `Result:${result.join("")}`;
