@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="starter\istockphoto-178431355-1024x1024.jpg" />
+    <title>Caesar-Cipher</title>
+    <link rel="stylesheet" href="starter\style.css" />
+  </head>
+  <body>
+    <div class="bod-parent">
+      <div class="bod">
+        <h1 class="Caesar-head">Caesar-Cipher</h1>
+        <h2 class="Cipher-ques">What are Ciphers??</h2>
+        <p class="cipher-body">
+          Ciphers are algoritms used to protect the privacy of a particular
+          message by encryption during transmission from one person to another.
+        </p>
+        <h3 class="caesar-cip-ques">So whats Caesar-Cipher??</h3>
+        <p class="caesar-cip-body">
+          Remember the phrase Et,tu brute?Yes I am talking about Julius Caesar
+          the Romanian dictator.It's interesting to know the reason behind his
+          illustrous war victories is just a simple algorithm.Yes ,its true. You
+          may wonder how and I did to.But believe me its super easy.It is a
+          symmetric cryptographic encryption algorithm containing of key and
+          steps.The pic below would help you in understanding the algorithm.
+        </p>
+        <img class="caesar-cip-img" src="starter\ceaserCipher.png" />
+        <br />
+        The step size in above pic is 1 and key is 3.
+        <h3 class="no-prob">Still difficult and you need the ans asap?</h3>
+        <h4 class="no-prob-there-is-encryptor">
+          No issues there's a encryptor and decryptor below to help you out:
+        </h4>
+        <table class="tab-le">
+          <tr>
+            <td>
+              <div><p>ENCRYPTOR</p></div>
+              <label for="en-inp">ENTER WORD:</label>
+              <input type="text" class="en-inp" /><br />
+              <label for="en-key"
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KEY:</label
+              >
+              <input type="number" class="en-key" /><br />
+              <label for="en-step"
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STEPS:</label
+              >
+              <input class="en-step" type="number" />
+              <br />
+              <button type="submit" class="en-submit">SUBMIT</button><br />
+
+              <div class="en-result">Result:</div>
+              <button type="submit" class="en-submit" id="1">COPY</button>
+            </td>
+            <td>
+              <div><p>DECRYPTOR</p></div>
+              <label for="de-inp">ENTER ENCRYPTED WORD:</label>
+              <input type="text" class="de-inp" />
+              <br />
+              <label for="de-key"
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KEY:</label
+              >
+              <input type="number" class="de-key" /><br />
+              <label for="de-step"
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STEPS:</label
+              >
+              <input class="de-step" type="number" />
+              <br />
+              <button type="submit" class="de-submit">SUBMIT</button>
+              <div class="de-result">Result:</div>
+              <button type="submit" class="de-submit" id="2">COPY</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="note">
+        Note:-Please use the copy option as some symbols cannot be displayed
+      </div>
+      <div class="footer">
+        <div class="img-gfg">Image source:geeksforgeeks</div>
+        <div class="copyright">©Parthib Goswami</div>
+        <div class="git">Github</div>
+      </div>
+    </div>
+    <script src="starter\script.js"></script>
+  </body>
+</html>
