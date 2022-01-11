@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Nunito:wght@500&display=swap");
+.bod {
+  height: 63rem;
+  width: 60rem;
+  margin-top: 0%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  background-color: #ffb5b5;
+  color: #000b49;
+  text-align: center;
+  border-radius: 30rem;
+  font-size: 1.2rem;
+}
+.en-submit {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: #000b49;
+  text-align: center;
+  background-color: #f0d9e7;
+  border-radius: 50rem;
+}
+.en-submit:hover {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: #f0d9e7;
+  text-align: center;
+  background-color: #000b49;
+  border-radius: 50rem;
+}
+.de-submit {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: #000b49;
+  text-align: center;
+  border-radius: 50rem;
+  background-color: #f0d9e7;
+}
+.de-submit:hover {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: #f0d9e7;
+  text-align: center;
+  background-color: #000b49;
+  border-radius: 50rem;
+}
+.bod-parent {
+  border: 4px solid #000b49;
+  height: 69rem;
+  width: 64rem;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #ff7272;
+}
+.no-prob-there-is-encryptor {
+  font-family: "Nunito", sans-serif;
+}
+.caesar-cip-img {
+  border: 2px solid #000b49;
+  border-radius: 3rem;
+}
+
+.tab-le,
+td,
+tr {
+  border: 2px solid #000b49;
+}
+.en-inp {
+  text-align: center;
+}
+.en-result {
+  margin-top: 0.45rem;
+  background-color: azure;
+}
+.de-inp {
+  text-align: center;
+}
+.de-result {
+  margin-top: 0.45rem;
+  background-color: azure;
+}
+.tab-le {
+  margin-top: 0%;
+  margin-left: 9rem;
+}
+input {
+  text-align: center;
+}
+.footer {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  margin-top: 0.75rem;
+  height: 2rem;
+  width: 64rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: aliceblue;
+}
+.img-gfg {
+  margin-top: 0.5rem;
+  margin-left: 19rem;
+}
+.copyright {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.git {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.note {
+  margin-top: 1rem;
+  font-family: "Nunito" sans-serif;
+  font-weight: bolder;
+}
